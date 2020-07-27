@@ -19,7 +19,7 @@
 	height: 40vh;
 	position: absolute;
 	top: 50%;
-	background-image: url(blackhole.gif);
+	background-image: url(/Assets/images/blackhole.gif);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -264,7 +264,7 @@ to align it properly */
 
 	margin: calc((20/768) * ((100vw + 100vh) / 2));
 
-	background-image: url('logo-transparent.png');
+	background-image: url('/Assets/images/logo-transparent.png');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
