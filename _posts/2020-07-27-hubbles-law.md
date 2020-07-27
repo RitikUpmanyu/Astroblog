@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Hubble's Law
 date: 2020-07-27T08:27:39.871Z
 thumbnail: /images/uploads/andromeda-galaxy.jpg
