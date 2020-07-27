@@ -135,11 +135,11 @@
 	margin-top: 0em;
 }
 
-ul {
+#social ul {
 	position: fixed;
 	right: 30px;
 }
-li {
+#social li {
 	margin-left: 15px;
 	padding-left: 5px;
 }
