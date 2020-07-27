@@ -1,0 +1,7 @@
+name: My Jekyll Website
+title: Astro Club BITS Pilani
+kramdown:
+    input: GFM
+    auto_ids: true
+    hard_wrap: false
+    syntax_highlighter: rouge
