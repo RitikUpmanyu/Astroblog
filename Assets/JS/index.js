@@ -51,7 +51,23 @@ $(document).ready(function(){
 	var rectangle5 = $('#rectangle5');
 	var rectangle6 = $('#rectangle6');
 	var section3 = $('.section-3');
-
+	var st = $(this).scrollTop();
+	star.css({
+		'opacity' : 1 - st/700
+	});
+	linea.css({
+		'opacity' : 1 - st/700
+	})
+	lineb.css({
+		'opacity' : 1 - st/700
+	})
+	linec.css({
+		'opacity' : 1 - st/1200
+	})
+	explore.css({'opacity': 1-st/300})
+	navbar.css({
+		'opacity' : 1 - st/700
+	})
 	$(window).on('scroll', function() {
 		var st = $(this).scrollTop();
 		star.css({
