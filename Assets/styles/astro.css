@@ -8,8 +8,33 @@
 	src: url(/Assets/fonts/DINPro-Medium-tr.ttf);
 }
 @font-face {
+	font-family: DINPro-Light;
+	src: url("/Assets/fonts/DINPro-Light-tr.ttf");
+}
+@font-face {
 	font-family: Petita;
 	src: url(/Assets/fonts/petitamedium.ttf);
+}
+@font-face {
+	font-family: DINPro-Medium;
+	font-weight: 100;
+	src: url("/Assets/fonts/DINPro-Medium-tr.ttf")
+}
+
+@font-face{
+	font-family: PetitaBold;
+	font-weight: 100;
+	src: url("/Assets/fonts/petitamedium.ttf");
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("/Assets/fonts/Lato-Regular.ttf")
+}
+
+@font-face {
+	font-family: ModernSans-Light;
+	src: url("/Assets/fonts/ModernSans-Light.otf")
 }
 #preloader  {
 	position: fixed;
@@ -638,10 +663,11 @@ to align it properly */
 	.section-3 img{
 		position: relative;
 		display: block;
-		max-width: 100%;
-    	max-height: 100%;
+		height: 116vh;
 		z-index: -10;
 		mix-blend-mode: hue;
+		margin-left: 50%;
+		transform: translateX(-50%);
 	}
 	.section-3 .content-3{
 		position: absolute;
@@ -804,6 +830,7 @@ to align it properly */
 }
 
 .section-4{
+	scroll-snap-align: start;
 	margin: 0;
 	padding: 0;
 	z-index: 10;
@@ -929,4 +956,240 @@ to align it properly */
 	width: 100%;
 	z-index: -10;
 	position: absolute;
+}
+
+
+
+.section-5{
+	scroll-snap-align: start;
+	z-index: 5;
+    background: transparent linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 9, 0.07) 41%, rgba(10, 10, 10, 0.05) 74%, rgba(0, 0, 0, 1) 100%) 0% 0% no-repeat padding-box;
+    position: relative;
+    height: auto;
+    width: 100%;
+    top: 135vh;
+}
+
+
+.section-5 img{
+	position: relative;
+    top: 0;
+    width: auto;
+    height: 235vh;
+	mix-blend-mode: color;
+}
+
+.section-5 .circle{
+	position: absolute;
+	top: 20vh;
+	left: 6.75vw;
+	display: inline-block;
+}
+
+.section-5 h1{
+		align-items: center;
+		position: absolute;
+		top: 13.25vh;
+    	left: 10.5vw;
+		display: inline-block;
+		font:3rem PetitaBold;
+		font-weight: 100;
+		margin-left: 10px;
+		z-index: 10;
+		color: white;
+	}
+
+.section-5 .text-0{
+	z-index: 20;
+	position: absolute;
+	top:33.25vh;
+	left: 7.5vw;
+	color: #8B9AB5;
+	font: 1.25rem ModernSans-Light;
+	margin-top: 0;
+	line-height: 1.75rem;
+	width: 50vw;
+	font-weight: 100;
+}	
+
+.section-5 .number-1{
+	z-index: 20;
+	color:rgba(62, 131, 136, 1);
+	font: 147px DINPro-Light;
+	letter-spacing: 0;
+	position: absolute;
+	left: 6.75vw;
+	top: 45.25vh;
+}
+
+.section-5 .heading-1{
+	z-index: 20;
+	color: rgba(255, 255, 255, 1);
+	font:1.75rem DINPro-Light;
+	font-weight: 100;
+	position: absolute;
+	top: 69.25vh;
+	left: 15.6vw;
+	letter-spacing: 0.4px;
+	margin-left: 35px;
+}
+
+.section-5 .text-1{
+	color: rgba(105, 118, 138, 1);
+	z-index: 20;
+	position: absolute;
+	top: 83vh;
+	left: 15.6vw;
+	font: 1.25rem DINPro-Medium;
+	margin-top: 0;
+	line-height: 1.75rem;
+	width: 44vw;
+	font-weight: 100;
+	margin-left: 35px;
+}
+
+.section-5 .number-2{
+	z-index: 20;
+	color:rgba(62, 131, 136, 1);
+	font: 147px DINPro-Light;
+	letter-spacing: 0;
+	position: absolute;
+	left: 35vw;
+	top: 80.25vh;
+}
+
+.section-5 .heading-2{
+	z-index: 20;
+	color: rgba(255, 255, 255, 1);
+	font-weight: 100;
+	position: absolute;
+	font:1.75rem DINPro-Light;
+	top: 105vh;
+	left: 45.5vw;
+	letter-spacing: 0.4px;
+	margin-left: 35px;
+}
+
+.section-5 .text-2{
+	color: rgba(105, 118, 138, 1);
+	z-index: 20;
+	position: absolute;
+	top: 118.25vh;
+	left: 45.5vw;
+	font: 1.25rem DINPro-Medium;
+	margin-top: 0;
+	line-height: 1.75rem;
+	width: 50vw;
+	font-weight: 100;
+	width: 43vw;
+	margin-left: 35px;
+}
+
+.section-5 .number-3{
+	z-index: 20;
+	color:rgba(62, 131, 136, 1);
+	font: 147px DINPro-Light;
+	letter-spacing: 0px;
+	position: absolute;
+	left: 6.75vw;
+	top: 115.25vh;
+}
+
+.section-5 .heading-3{
+	z-index: 20;
+	color: rgba(255, 255, 255, 1);
+	font:1.75rem DINPro-Light;
+	font-weight: 100;
+	position: absolute;
+	top: 139.5vh;
+	left: 16.9vw;
+	letter-spacing: 0.4px;
+	margin-left: 35px;
+}
+
+.section-5 .text-3{
+	color: rgba(105, 118, 138, 1);
+	z-index: 20;
+	position: absolute;
+	top: 153vh;
+	font: 1.25rem DINPro-Medium;
+	margin-top: 0;
+	line-height: 1.75rem;
+	font-weight: 100;
+	width: 43vw;
+	left: 16.9vw;
+	letter-spacing: 0.4px;
+	margin-left: 35px;
+}
+
+.section-5 .number-4{
+	z-index: 20;
+	color:rgba(62, 131, 136, 1);
+	font: 147px DINPro-Light;
+	letter-spacing: 2.03px;
+	position: absolute;
+	left: 35vw;
+	top: 150.25vh;
+}
+
+.section-5 .heading-4{
+	z-index: 20;
+	color: rgba(255, 255, 255, 1);
+	font:1.75rem DINPro-Light;
+	font-weight: 100;
+	position: absolute;
+	top: 174.5vh;
+	left: 45.5vw;
+	letter-spacing: 0.4px;
+	margin-left: 35px;
+}
+
+.section-5 .text-4{
+	color: rgba(105, 118, 138, 1);
+	z-index: 20;
+	position: absolute;
+	top: 188vh;
+	left: 45.5vw;
+	font: 1.25rem DINPro-Medium;
+	margin-top: 0;
+	line-height: 1.75rem;
+	font-weight: 100;
+	width: 43vw;
+	margin-left: 35px;
+}
+
+.section-5 .number-5{
+	z-index: 20;
+	color:rgba(62, 131, 136, 1);
+	font: 147px DINPro-Light;
+	letter-spacing: 2.03px;
+	position: absolute;
+	left: 6.75vw;
+	top: 185.25vh;
+}
+
+.section-5 .heading-5{
+	z-index: 20;
+	color: rgba(255, 255, 255, 1);
+	font:1.75rem DINPro-Light;
+	font-weight: 100;
+	position: absolute;
+	top: 209.5vh;
+	left: 16.9vw;
+	letter-spacing: 0.4px;
+	margin-left: 35px;
+}
+
+.section-5 .text-5{
+	color: rgba(105, 118, 138, 1);
+	z-index: 20;
+	position: absolute;
+	top: 222.6vh;
+	left: 16.9vw;
+	font: 1.25rem DINPro-Medium;
+	margin-top: 0;
+	line-height: 1.75rem;
+	font-weight: 100;
+	width: 43vw;
+	margin-left: 35px;
 }
