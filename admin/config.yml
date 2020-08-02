@@ -32,13 +32,12 @@ collections:
         name: "landing"
         file: "_data/landing.yml"
         fields:
-          - label: "What do we do?"
-            name: "section2"
-            widget: "object"
+          - {
+            label: "What do we do?",
+            name: "section2",
+            widget: "object",
             fieds:
-              - label: "Text"
-                name: "text"
-                widget: "string"
+              - {label: "Text", name: "text", widget: "string"}}
           - label: "Observations"
             name: "section3"
             widget: "object"
