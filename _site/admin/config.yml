@@ -35,28 +35,28 @@ collections:
           - label: "What do we do?"
             name: "section2"
             widget: "object"
-            fieds:
+            fields:
               - label: "Text"
                 name: "text"
                 widget: "string"
           - label: "Observations"
             name: "section3"
             widget: "object"
-            fieds:
+            fields:
               - label: "Text"
                 name: "text"
                 widget: "string"
           - label: "Our blog"
             name: "section4"
             widget: "object"
-            fieds:
+            fields:
               - label: "Text"
                 name: "text"
                 widget: "string"
           - label: "Events"
             name: "section5"
             widget: "object"
-            fieds:
+            fields:
               - label: "Text"
                 name: "text"
                 widget: "string"
@@ -113,7 +113,7 @@ collections:
           - label: "Projects"
             name: "section6"
             widget: "object"
-            fieds:
+            fields:
               - label: "Text"
                 name: "text"
                 widget: "string"

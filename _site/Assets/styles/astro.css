@@ -506,6 +506,7 @@ transition: 0.4s ease-in-out;
 }
 @media only screen and (max-width: 501px){
 .section-2{
+	scroll-snap-align: start;
 	position: relative;
 	width: 100%;
 	top: 100vh;
@@ -758,13 +759,14 @@ transition: all 0.5s ease;
 width: 4vw;
 }
 .section-4{
-margin: 0;
-padding: 0;
-z-index: 10;
-position: relative;
-top:131vh;
-width: 100%;
-height: auto;
+	scroll-snap-align: start;
+	margin: 0;
+	padding: 0;
+	z-index: 10;
+	position: relative;
+	top:131vh;
+	width: 100%;
+	height: auto;
 }
 .section-4 .circle{
 position: relative;
@@ -854,6 +856,7 @@ line-height: 1.75rem;
 	transition: 0.4s ease-in-out;
 }
 .section-5{
+	scroll-snap-align: start;
 	z-index: 5;
     background: transparent linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 9, 0.07) 41%, rgba(10, 10, 10, 0.05) 74%, rgba(0, 0, 0, 1) 104%) 0% 0% no-repeat padding-box;
     position: relative;
@@ -1103,6 +1106,7 @@ line-height: 1.75rem;
 	}
 }
 .section-6{
+	scroll-snap-align: start;
 		display: flex;
 		justify-content: center;
 		z-index: 5;

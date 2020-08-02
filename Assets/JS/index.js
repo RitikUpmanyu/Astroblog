@@ -53,6 +53,7 @@ $(document).ready(function(){
 	var section3 = $('.section-3');
 	var section4 = $('.section-4');
 	var section5 = $('.section-5');
+	var section6 = $('.section-6');
 	var st = $(this).scrollTop();
 	star.css({
 		'opacity' : 1 - st/700
@@ -110,7 +111,6 @@ $(document).ready(function(){
 			rectangle4.removeClass('rectanglebig', {duration:500});
 			rectangle5.removeClass('rectanglebig', {duration:500});
 			rectangle6.removeClass('rectanglebig', {duration:500});
-			rectangle1.removeClass('rectanglebig', {duration:500});
 			rectangle3.addClass('rectanglebig', {duration:500});}
 		if(st>section4.position().top-100){
 			rectangle1.removeClass('rectanglebig', {duration:500});
@@ -118,7 +118,6 @@ $(document).ready(function(){
 			rectangle3.removeClass('rectanglebig', {duration:500});
 			rectangle5.removeClass('rectanglebig', {duration:500});
 			rectangle6.removeClass('rectanglebig', {duration:500});
-			rectangle1.removeClass('rectanglebig', {duration:500});
 			rectangle4.addClass('rectanglebig', {duration:500});}
 		if(st>section5.position().top-100){
 			rectangle1.removeClass('rectanglebig', {duration:500});
@@ -126,8 +125,14 @@ $(document).ready(function(){
 			rectangle4.removeClass('rectanglebig', {duration:500});
 			rectangle3.removeClass('rectanglebig', {duration:500});
 			rectangle6.removeClass('rectanglebig', {duration:500});
-			rectangle1.removeClass('rectanglebig', {duration:500});
 			rectangle5.addClass('rectanglebig', {duration:500});}
+		if(st>section6.position().top-200){
+			rectangle1.removeClass('rectanglebig', {duration:500});
+			rectangle2.removeClass('rectanglebig', {duration:500});
+			rectangle4.removeClass('rectanglebig', {duration:500});
+			rectangle3.removeClass('rectanglebig', {duration:500});
+			rectangle5.removeClass('rectanglebig', {duration:500});
+			rectangle6.addClass('rectanglebig', {duration:500});}
 	});
 });
 
