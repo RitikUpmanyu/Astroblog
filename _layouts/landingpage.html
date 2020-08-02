@@ -55,8 +55,7 @@ layout: default
             <div class="circle"></div>
             <h1 class="text">What do we do?</h1>
         </div>
-        <p>Astro Club, BITS Pilani’s oﬃcial Astronomy Club, is a group of enthusiasts with a keen interest in astronomy and
-        astrophysics. Students and faculty part of this group work to promote astronomy and spread knowledge among the students.</p>
+        <p>{{site.data.landing.section2.text}}</p>
         <button data-tilt class="myBtn2" class="bg">
             <div class="btntext">
                 Contact
@@ -75,9 +74,7 @@ layout: default
     <div class="content-3">
         <div class="circle"></div>
         <h1>Observations</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolor cum quod neque et! Sed placeat perspiciatis
-            excepturi, quasi perferendis temporibus, exercitationem ipsa dicta inventore odio eius laborum repudiandae
-            repellat.</p>
+        <p>{{site.data.landing.section3.text}}</p>
         <button data-tilt class="myBtn2 btn2" class="bg">
             <div class="btntext">
                 Read More
@@ -85,13 +82,18 @@ layout: default
         </button>
     </div>
 </div>
+
 <div class="section-4">
-    <div class="circle"></div>
-    <h1>Our Blogs</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-    
+    <div class="centerer">
+        <div class="circle"></div>
+    </div>
+    <div class="centerer">
+        <h1>Our Blogs</h1>
+    </div>
+    <div class="centerer">
+    <p>{{site.data.landing.section4.text}}</p>
+    </div>
+    <div class="centerer">
     <div class="bloglist">
 
         {% for post in site.posts limit:4 %}
@@ -102,39 +104,51 @@ layout: default
         {% endfor %}
       
     </div>
-    <button data-tilt class="myBtn2 btn2" class="bg">
-        <div class="btntext">
-            Show More
-        </div>
-    </button>
+    </div>
+    <div class="centerer">
+        <button data-tilt class="myBtn2 btn2" class="bg">
+            <div class="btntext">
+                Show More
+            </div>
+        </button>
+    </div>
+
 </div>
+
 <div class="section-5">
     <img src="Assets/images/Nebula BG@2x.png" alt="">
     <div id="section5content">
     <div class="circle"></div>
     <h1>Events</h1>
-    <p class="text-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+    <p class="text-0">{{site.data.landing.section5.text}}</p>
     <p class="number-1">01</p>
-    <p class="heading-1">Nights' Watch Session</p>
-    <p class="text-1">Lorem ipsum dolor sit amet Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+    <p class="heading-1">{{site.data.landing.section5.event1.title}}</p>
+    <p class="text-1">{{site.data.landing.section5.event1.text}}</p>
     <p class="number-2">02</p>
-    <p class="heading-2">Astropixel</p>
-    <p class="text-2">Lorem ipsum dolor sit amet Duis aute irure dolor in troeojs repreh enderit in voluptate velit esse cillum dolore eu</p>
+    <p class="heading-2">{{site.data.landing.section5.event2.title}}</p>
+    <p class="text-2">{{site.data.landing.section5.event2.text}}</p>
     <p class="number-3">03</p>
-    <p class="heading-3">Deep Sky Hunt</p>
-    <p class="text-3">Lorem ipsum dolor sit amet Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+    <p class="heading-3">{{site.data.landing.section5.event3.title}}</p>
+    <p class="text-3">{{site.data.landing.section5.event3.text}}</p>
     <p class="number-4">04</p>
-    <p class="heading-4">What The Frequency!</p>
-    <p class="text-4">Lorem ipsum dolor sit amet Duis aute irure dolor in troeojs repreh enderit in voluptate velit esse
-        cillum dolore eu</p>
+    <p class="heading-4">{{site.data.landing.section5.event4.title}}</p>
+    <p class="text-4">{{site.data.landing.section5.event4.text}}</p>
     <p class="number-5">05</p>
-    <p class="heading-5">42</p>
-    <p class="text-5">Lorem ipsum dolor sit amet Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu</p>
+    <p class="heading-5">{{site.data.landing.section5.event5.title}}</p>
+    <p class="text-5">{{site.data.landing.section5.event5.text}}</p>
     </div>
 </div>
 
-
+<div class="section-6">
+    <div class="drop"></div>
+    <img src="Assets/images/nebula-2.png" alt="nebula">
+    <div class="circle"></div>
+    <h1>Projects</h1>
+    <p>{{site.data.landing.section6.text}}</p>
+    <button data-tilt class="myBtn2 btn2" class="bg">
+        <div class="btntext">
+            View All
+        </div>
+    </button>
+</div>
 

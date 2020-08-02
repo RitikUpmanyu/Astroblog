@@ -24,3 +24,98 @@ collections:
         widget: 'string',
         default: 'Astro Club',
         }
+    
+   - label: "Pages"
+     name: "pages"
+     files: 
+      - label: "Landing Page"
+        name: "landing"
+        file: "_data/landing.yml"
+        fields:
+          - label: "What do we do?"
+            name: "section2"
+            widget: "object"
+            fieds:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+          - label: "Observations"
+            name: "section3"
+            widget: "object"
+            fieds:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+          - label: "Our blog"
+            name: "section4"
+            widget: "object"
+            fieds:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+          - label: "Events"
+            name: "section5"
+            widget: "object"
+            fieds:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+              - label: "Event1"
+                name: "event1"
+                widget: "object"
+                fields:
+                  -label: "Title"
+                    name: "title"
+                    widget: "string"
+                  -label: "Text"
+                    name: "text"
+                    widget: "string"
+              - label: "Event2"
+                name: "event2"
+                widget: "object"
+                fields:
+                  -label: "Title"
+                    name: "title"
+                    widget: "string"
+                  -label: "Text"
+                    name: "text"
+                    widget: "string"
+              - label: "Event3"
+                name: "event3"
+                widget: "object"
+                fields:
+                  -label: "Title"
+                    name: "title"
+                    widget: "string"
+                  -label: "Text"
+                    name: "text"
+                    widget: "string"
+              - label: "Event4"
+                name: "event4"
+                widget: "object"
+                fields:
+                  -label: "Title"
+                    name: "title"
+                    widget: "string"
+                  -label: "Text"
+                    name: "text"
+                    widget: "string"
+              - label: "Event5"
+                name: "event5"
+                widget: "object"
+                fields:
+                  -label: "Title"
+                    name: "title"
+                    widget: "string"
+                  -label: "Text"
+                    name: "text"
+                    widget: "string"
+          - label: "Projects"
+            name: "section6"
+            widget: "object"
+            fieds:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+
+
