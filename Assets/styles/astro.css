@@ -1232,3 +1232,206 @@ line-height: 1.75rem;
 	z-index: -10;
 	position: absolute;
 }
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 125vh;
+	height: auto;
+}
+
+.footer-heading {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	background-color: white;
+	height: 3px;
+}
+
+.footer-heading-text {
+	position: absolute;
+	top: 26px;
+	width: 25%;
+	height: 30px;
+	font: 1.4rem DINPro-Medium;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+.bits-down {
+	font-family: DINPro-Light;
+	font-size: 1.3rem;
+}
+
+.footer-list {
+	position: absolute;
+	top: 70px;
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
+	color: white;
+	font: 1.2rem DINPro-Light;
+	text-decoration: none;
+	list-style: none;
+	line-height: 50px;
+	font-family: 100;
+	letter-spacing: 0.9px;
+}
+.footer-list li{
+	cursor: pointer;
+	transition: opacity 500ms ease-in-out 0s, transform 500ms ease-in-out 0s, all 500ms ease-in-out 0s;
+}
+.footer-list li:hover{
+	color: #21BBFF;
+}
+
+.newsletter {
+	display: flex;
+	position: absolute;
+	top: 250px;
+	font: 0.9rem DINPro-Medium;
+	color: white;
+}
+
+.subscribe-form input {
+	height: 2.7rem;
+}
+
+.subscribe-form input[type="submit"]{
+	z-index: 2;
+	width: 150px;
+	padding:0;
+	height: 50px;
+	outline: none;
+	background: transparent linear-gradient(105deg, #0287D0E6 0%, #49AADCE8 52%, #48DBD8E8 100%) 0% 0% no-repeat padding-box;
+	border: 1px solid #27D3FF;
+	border-radius: 38px;
+	background-size:66.92073170731707vw 31.695721077654518vh;
+	background-position: -100px;
+	color: #ffffff;
+	cursor: pointer;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-left: 1vw;
+	margin-right: 0;
+	font-size: 0.95rem;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+	Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	transition: all 0.2s linear;
+	align-items: center;
+	margin-bottom: 0; /*change this to specify distance from bottom*/
+	bottom: 0;
+	display: inline-block;
+	transform-style: preserve-3d;
+	transform: perspective(1000px);
+	transform: translateX(-70px);
+	opacity: 1;
+	z-index: 10;
+}
+
+.subscribe-form input[type="text"]{
+transform-style: preserve-3d;
+transform: perspective(1000px);
+background: none;
+outline: none;
+border: none;
+background-color:#202021;
+display: inline-block;
+height: 50px;
+width: 200px;
+color: #707070;
+transform: translateZ(20px);
+border-radius: 38px;
+margin-top: -10px;
+margin-left: 20px;
+font-size: 0.9rem;
+padding-left: 30px;
+}
+
+.copyright {
+	position: absolute;
+	top: 350px;
+	color: #515151;
+	font: 1.25rem DINPro-Medium;
+	margin-bottom: 30px;
+}
+
+#social-footer{
+
+position: absolute;
+top: 140px;
+display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 2.5vw;
+  grid-auto-flow: column;
+}
+@media (max-width: 600px){
+#social-footer{
+	top: 160px;
+}
+}
+@media (max-width: 500px){
+#social-footer{
+	top: 200px;
+}
+}
+
+/* Style the icons by setting its color and margin-top value to 20px
+to align it properly */
+#social-footer .fa {
+color: #d8e2dc;
+margin-top: 5px;
+transition: all 0.5s ease;
+}
+
+/*facebook*/
+#social-footer .facebook-footer:hover.facebook {
+transition: all 0.5s ease;
+}
+
+#social-footer .facebook-footer:hover .fa-facebook {
+color: #7298e9;
+text-shadow: 0 0 15px #7298e9;
+transition: all 0.5s ease;
+}
+
+/* instagram */
+#social-footer .instagram-footer:hover.instagram {
+transition: all 0.5s ease;
+}
+
+#social-footer .instagram-footer:hover .fa-instagram {
+color: #e952b9;
+text-shadow: 0 0 15px #e952b9;
+transition: all 0.5s ease;
+}
+/*linkedin*/
+#social-footer .linkedin-footer:hover.linkedin {
+transition: all 0.5s ease;
+}
+
+#social-footer .linkedin-footer:hover .fa-linkedin {
+color: #0e76a8;
+text-shadow: 0 0 15px #0e76a8;
+transition: all 0.5s ease;
+}
+
+/* github */
+#social-footer .github-footer:hover.github {
+transition: all 0.5s ease;
+}
+
+#social-footer .github-footer:hover .fa-github {
+color: #6cc644;
+text-shadow: 0 0 15px #6cc644;
+transition: all 0.5s ease;
+}
